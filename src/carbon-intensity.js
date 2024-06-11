@@ -36,15 +36,21 @@ const MyResponsiveAreaBump = ({ data /* see data tab */ }) => (
     fill={[
       {
         match: {
-          id: "CoffeeScript",
+          id: "TypeScript",
         },
         id: "dots",
       },
       {
         match: {
-          id: "TypeScript",
+          id: "CoffeeScript",
         },
         id: "lines",
+      },
+      {
+        match: {
+          id: "Some other Data",
+        },
+        id: "dots",
       },
     ]}
     startLabel="id"
