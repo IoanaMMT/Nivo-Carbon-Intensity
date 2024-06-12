@@ -3,10 +3,6 @@ export const data = [
     id: "Some other Data",
     data: [
       {
-        x: 2019,
-        y: 13,
-      },
-      {
         x: 2020,
         y: 7,
       },
@@ -31,10 +27,6 @@ export const data = [
   {
     id: "JavaScript",
     data: [
-      {
-        x: 2019,
-        y: 12,
-      },
       {
         x: 2020,
         y: 10,
@@ -61,10 +53,6 @@ export const data = [
     id: "ReasonML",
     data: [
       {
-        x: 2019,
-        y: 18,
-      },
-      {
         x: 2020,
         y: 20,
       },
@@ -89,10 +77,6 @@ export const data = [
   {
     id: "TypeScript",
     data: [
-      {
-        x: 2019,
-        y: 25,
-      },
       {
         x: 2020,
         y: 10,
@@ -119,10 +103,6 @@ export const data = [
     id: "Elm",
     data: [
       {
-        x: 2019,
-        y: 12,
-      },
-      {
         x: 2020,
         y: 10,
       },
@@ -147,10 +127,6 @@ export const data = [
   {
     id: "CoffeeScript",
     data: [
-      {
-        x: 2019,
-        y: 27,
-      },
       {
         x: 2020,
         y: 16,
