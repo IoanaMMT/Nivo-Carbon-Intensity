@@ -1,5 +1,5 @@
 import "./App.css";
-import MyResponsiveAreaBump from "./carbon-intensity";
+import MyResponsiveAreaBump from "./Areabump";
 import { data } from "./data";
 
 function App() {
