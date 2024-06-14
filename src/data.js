@@ -1,6 +1,6 @@
 export const data = [
   {
-    id: "Some other Data",
+    id: "Replace Data",
     data: [
       {
         x: 2020,
