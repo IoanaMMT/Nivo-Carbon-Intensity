@@ -1,6 +1,6 @@
 export const data = [
   {
-    id: "Replace Data",
+    id: "Train",
     data: [
       {
         x: 2020,
@@ -25,7 +25,7 @@ export const data = [
     ],
   },
   {
-    id: "JavaScript",
+    id: "Bus",
     data: [
       {
         x: 2020,
@@ -50,7 +50,7 @@ export const data = [
     ],
   },
   {
-    id: "ReasonML",
+    id: "Underground",
     data: [
       {
         x: 2020,
@@ -75,7 +75,7 @@ export const data = [
     ],
   },
   {
-    id: "TypeScript",
+    id: "Own Car",
     data: [
       {
         x: 2020,
@@ -100,7 +100,7 @@ export const data = [
     ],
   },
   {
-    id: "Elm",
+    id: "Bike rides",
     data: [
       {
         x: 2020,
@@ -125,7 +125,7 @@ export const data = [
     ],
   },
   {
-    id: "CoffeeScript",
+    id: "Taxi rides",
     data: [
       {
         x: 2020,

@@ -1,11 +1,12 @@
 import "./App.css";
-import MyResponsiveAreaBump from "./Areabump";
-import { data as InitialData } from "./data";
 import React, { useState } from "react";
+import MyResponsiveAreaBump from "./Areabump";
+import { data as initialData } from "./data";
 import SliderControl from "./SliderControl";
+import { Block } from "@mui/icons-material";
 
 function App() {
-  const [data, setData] = useState(InitialData);
+  const [data, setData] = useState(initialData);
 
   const handleSliderChange = ({ seriesIndex, pointIndex, value }) => {
     const newData = [...data];
