@@ -15,7 +15,7 @@ function App() {
   };
 
   return (
-    <div className="App" style={{ height: "80vh", display: "flex" }}>
+    <div className="App">
       <div style={{ flex: 3 }}>
         <MyResponsiveAreaBump data={data} />
       </div>
