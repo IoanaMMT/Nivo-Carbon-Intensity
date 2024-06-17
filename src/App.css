@@ -34,19 +34,23 @@
   }
   
   @media (max-width: 500px) {
+    .header {
+        width: 85%;
+        align-self: center;
+    }
     .content {
       flex-direction: column;
       align-items: center;
       height: 100%; /* Ensure content takes full height */
       overflow-y: auto; /* Enable vertical scroll if needed */
+      gap: 1rem;
     }
   
     .chart {
       order: 1;
-      width: 60vh; /* Ensure full width */
+      width: 50vh; /* Ensure full width */
       height: 30vh; /* Adjust height for better proportion */
       max-height: 30vh; /* Ensure it does not stretch beyond this height */
-      margin-bottom: 2rem; /* Add spacing between sections */
     }
   
     .controls {
