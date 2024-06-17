@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import MyResponsiveAreaBump from "./Areabump";
 import { data as initialData } from "./data";
 import SliderControl from "./SliderControl";
-import { Block } from "@mui/icons-material";
 
 function App() {
   const [data, setData] = useState(initialData);
@@ -16,11 +15,16 @@ function App() {
 
   return (
     <div className="App">
-      <div style={{ flex: 3 }}>
-        <MyResponsiveAreaBump data={data} />
+      <div className="header">
+        <h1>Bump Chart for Transport</h1>
       </div>
-      <div style={{ flex: 1 }}>
-        <SliderControl data={data} onChange={handleSliderChange} />
+      <div className="content">
+        <div className="chart">
+          <MyResponsiveAreaBump data={data} />
+        </div>
+        <div className="controls">
+          <SliderControl data={data} onChange={handleSliderChange} />
+        </div>
       </div>
     </div>
   );
