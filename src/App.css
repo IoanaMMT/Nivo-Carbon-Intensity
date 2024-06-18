@@ -8,9 +8,9 @@
   
   .header {
     width: 100%;
-    background-color: #f8f9fa; /* Light background color for the header */
+    background-color: #f8f9fa; 
     text-align: center;
-    border-bottom: 1px solid #dee2e6; /* Optional: Add a bottom border */
+    border-bottom: 1px solid #dee2e6; 
     padding: 1rem;
   }
   
@@ -18,19 +18,20 @@
     display: flex;
     flex: 1;
     padding: 1rem;
-    overflow-y: auto; /* Enable vertical scroll if needed */
+    overflow-y: auto; 
   }
   
   .chart {
     flex: 3;
-    height: 70vh; /* Adjust height as needed */
-    width: 60vh; /* Ensure full width */
+    height: 70vh; 
+    width: 60vh; 
   }
   
   .controls {
     flex: 1;
-    width: 100%; /* Ensure full width */
-    overflow-y: auto; /* Enable vertical scroll if needed */
+    width: 100%; 
+    overflow-y: auto; 
+    padding-top: 3rem;
   }
   
   @media (max-width: 500px) {
@@ -41,6 +42,7 @@
         border-radius: 10px;
         padding-bottom: 0%;
         padding-top: 0%;
+        margin-top: 1rem;
     }
     .chart-title {
         color: #183a5c;
@@ -49,21 +51,21 @@
     .content {
       flex-direction: column;
       align-items: center;
-      height: 100%; /* Ensure content takes full height */
-      overflow-y: auto; /* Enable vertical scroll if needed */
+      height: 100%; 
+      overflow-y: auto; 
       gap: 1rem;
     }
   
     .chart {
       order: 1;
-      width: 50vh; /* Ensure full width */
-      height: 30vh; /* Adjust height for better proportion */
-      max-height: 30vh; /* Ensure it does not stretch beyond this height */
+      width: 50vh; 
+      height: 30vh; 
+      max-height: 30vh; /* Stops to stretch beyond this height */
     }
   
     .controls {
       order: 2;
-      width: 100%; /* Ensure full width */
+      width: 100%; 
       height: auto; /* Adjust height to fit content */
       overflow-y: auto;
     }
