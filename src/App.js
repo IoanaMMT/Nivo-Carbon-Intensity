@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1>Bump Chart for Transport</h1>
+        <h1 className="chart-title">Bump Chart for Transport</h1>
       </div>
       <div className="content">
         <div className="chart">
