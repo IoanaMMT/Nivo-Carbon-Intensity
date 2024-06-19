@@ -33,6 +33,12 @@
     overflow-y: auto; 
     padding-top: 3rem;
   }
+
+  .controls-title {
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-top: -2rem;
+  }
   
   @media (max-width: 500px) {
     .header {
@@ -69,5 +75,11 @@
       height: auto; /* Adjust height to fit content */
       overflow-y: auto;
     }
+
+    .controls-title {
+        text-align: center;
+        padding-bottom: 1rem;
+        margin-top: -2rem;
+      }
   }
   
