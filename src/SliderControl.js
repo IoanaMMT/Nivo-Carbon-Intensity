@@ -15,7 +15,15 @@ const SliderControl = ({ data, onChange }) => {
   return (
     <Box sx={{ width: "100%", maxWidth: 400, margin: "auto" }}>
       {data.map((series) => (
-        <Accordion key={series.id} sx={{ marginBottom: 2 }}>
+        <Accordion
+          key={series.id}
+          sx={{
+            marginBottom: 2,
+            borderLeft: "0.5px solid #d3d3d3",
+            borderRight: "0.5px solid #d3d3d3",
+            borderTop: "0.5px solid #d3d3d3",
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls={`${series.id}-content`}

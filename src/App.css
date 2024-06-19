@@ -29,7 +29,7 @@
   
   .controls {
     flex: 1;
-    width: 100%; 
+    width: 80%; 
     overflow-y: auto; 
     padding-top: 3rem;
   }
@@ -65,7 +65,7 @@
   
     .controls {
       order: 2;
-      width: 100%; 
+      width: 80%; 
       height: auto; /* Adjust height to fit content */
       overflow-y: auto;
     }
