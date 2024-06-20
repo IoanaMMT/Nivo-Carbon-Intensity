@@ -13,7 +13,7 @@ const SliderControl = ({ data, onChange }) => {
   };
 
   return (
-    <div>
+    <div className="controls">
       <div className="controls-title">
         <h2>Data Controls</h2>
       </div>

@@ -39,7 +39,7 @@
     padding-bottom: 2rem;
     margin-top: -2rem;
   }
-  
+
   @media (max-width: 500px) {
     .header {
         width: 85%;
