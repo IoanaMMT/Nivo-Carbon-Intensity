@@ -13,11 +13,23 @@ const SliderControl = ({ data, onChange }) => {
   };
 
   return (
-    <div className="controls">
+    <div
+      className="controls"
+      style={{ backgroundColor: "rgba(56, 188, 178, 0.5)" }}
+    >
       <div className="controls-title">
         <h2>Data Controls</h2>
       </div>
-      <Box sx={{ width: "100%", maxWidth: 400, margin: "auto" }}>
+      <Box
+        sx={{
+          width: "100%",
+          maxWidth: 400,
+          margin: "auto",
+          backgroundColor: "rgba(56, 188, 178, 0.5)", // Transparent background
+          padding: 2, // Add padding for better visual appearance
+          borderRadius: 1, // Optional: add border-radius for a smoother look
+        }}
+      >
         {data.map((series) => (
           <Accordion
             key={series.id}

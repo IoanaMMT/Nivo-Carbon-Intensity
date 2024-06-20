@@ -19,6 +19,7 @@
     flex: 1;
     padding: 1rem;
     overflow-y: auto; 
+    gap: 30px;
   }
   
   .chart {
@@ -32,6 +33,10 @@
     width: 80%; 
     overflow-y: auto; 
     padding-top: 3rem;
+    border-radius: 15px;
+    padding-right: 2rem;
+    overflow-x: hidden;
+
   }
 
   .controls-title {
@@ -71,15 +76,17 @@
   
     .controls {
       order: 2;
-      width: 80%; 
+      width: 100%; 
       height: auto; /* Adjust height to fit content */
       overflow-y: auto;
+      margin-top: -1rem;
     }
 
     .controls-title {
         text-align: center;
         padding-bottom: 1rem;
         margin-top: -2rem;
+        color: #0c1d31;
       }
   }
   
