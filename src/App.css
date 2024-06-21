@@ -41,8 +41,9 @@
 
   .controls-title {
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     margin-top: -2rem;
+    margin-left: 2rem;
   }
 
   @media (max-width: 500px) {
