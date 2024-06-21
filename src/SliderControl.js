@@ -15,7 +15,10 @@ const SliderControl = ({ data, onChange }) => {
   return (
     <div
       className="controls"
-      style={{ backgroundColor: "rgba(56, 188, 178, 0.5)" }}
+      style={{
+        backgroundColor: "rgba(56, 188, 178, 0.5)",
+        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.6)",
+      }}
     >
       <div className="controls-title">
         <h2>Data Controls</h2>
