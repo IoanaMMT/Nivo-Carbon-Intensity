@@ -26,6 +26,7 @@
     flex: 3;
     height: 70vh; 
     width: 60vh; 
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
   }
   
   .controls {
@@ -53,7 +54,7 @@
         padding-bottom: 0%;
         padding-top: 0%;
         margin-top: 1rem;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     .chart-title {
         color: #183a5c;
@@ -72,6 +73,7 @@
       width: 50vh; 
       height: 30vh; 
       max-height: 30vh; /* Stops to stretch beyond this height */
+      box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
 
     }
   
