@@ -19,7 +19,7 @@
     flex: 1;
     padding: 1rem;
     overflow-y: auto; 
-    gap: 30px;
+    margin-left: 3rem;
   }
   
   .chart {
@@ -27,6 +27,7 @@
     height: 70vh; 
     width: 60vh; 
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
   }
   
   .controls {
@@ -37,6 +38,7 @@
     border-radius: 15px;
     padding-right: 2rem;
     overflow-x: hidden;
+    margin-left: 2rem;
   }
 
   .controls-title {
